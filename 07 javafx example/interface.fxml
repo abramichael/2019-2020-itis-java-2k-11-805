@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btn" layoutX="169.0" layoutY="334.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="263.0" text="SEND">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="dialog" editable="false" layoutX="122.0" layoutY="39.0" prefHeight="228.0" prefWidth="357.0" />
+      <TextField fx:id="msg" layoutX="122.0" layoutY="288.0" prefHeight="25.0" prefWidth="357.0" />
+   </children>
+</Pane>
